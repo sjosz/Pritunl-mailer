@@ -31,8 +31,8 @@ def send_email(gmail_user, gmail_pwd, ip, user_id):
 	currenttime = datetime.datetime.now()
 	currenttime_pretty = currenttime.strftime("%H:%M %d-%m-%Y")
 	
-	FROM = 'sjosz2000@gmail.com'
-	TO = 'jos@clephas.nl'
+	FROM = 'sjosz@dkl.com'
+	TO = 'monitoring@dl.com'
 	SUBJECT = 'Pritunl: %s logt in' %ip
 	TEXT = 'Pritunl: Er is ingelogd om %s vanaf IP adres %s en de user id is %s' % (currenttime_pretty, ip, user_id)
 
